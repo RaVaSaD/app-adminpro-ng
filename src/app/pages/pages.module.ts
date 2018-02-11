@@ -12,6 +12,7 @@ import { ChartsModule } from 'ng2-charts';
 // Temporal
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { GraficadonaComponent } from '../components/graficadona/graficadona.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { GraficadonaComponent } from '../components/graficadona/graficadona.comp
     ProgressComponent,
     Graficas1Component,
     IncrementadorComponent,
-    GraficadonaComponent
+    GraficadonaComponent,
+    AccountSettingsComponent
   ],
   exports: [
     DashboardComponent,
